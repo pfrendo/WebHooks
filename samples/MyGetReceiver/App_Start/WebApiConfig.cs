@@ -17,7 +17,7 @@ namespace MyGetReceiver
                 defaults: new { id = RouteParameter.Optional }
             );
 
-            // Initialize Slack WebHook receiver
+            // Initialize My get WebHook receiver
             config.InitializeReceiveMyGetWebHooks();
         }
     }
